@@ -1,7 +1,7 @@
 # Example heroku env settings
 
 ## Linux
-web: gunicorn myblog.wsgi --log-file -
+web: gunicorn project.wsgi --log-file -
 
 ## Asgi
 daphne -p 8001 -b 0.0.0.0 project.asgi:application --log-file -
