@@ -1,0 +1,10 @@
+# Example heroku env settings
+
+## Linux
+web: gunicorn myblog.wsgi --log-file -
+
+## Asgi
+daphne -p 8001 -b 0.0.0.0 project.asgi:application --log-file -
+
+## Windows
+web: python manage.py runserver 127.0.0.1:8000

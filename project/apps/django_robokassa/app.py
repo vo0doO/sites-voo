@@ -1,6 +1,7 @@
 ﻿from django.apps import AppConfig
 
-class RobokassaConfig(AppConfig):
-    name = 'django-robokassa'
+
+class DjangoRobokassaConfig(AppConfig):
+    name = 'django_robokassa'
     label = 'Robokassa'
     verbose_name = u'Робокасса'
