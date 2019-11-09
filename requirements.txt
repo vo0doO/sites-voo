@@ -1,0 +1,98 @@
+# Latest django
+django
+django_extensions
+
+# deploy toolkit
+Fabric
+
+# Debug toolbar
+django-debug-toolbar
+
+# @phpdude libs
+django-macros-url
+django-template-names
+
+# cache
+python-memcached
+django-clear-cache
+
+# Database drivers. Uncomment anyone is used.
+#MySQL-python
+#mysqlclient
+psycopg2
+
+# Project custom apps
+django-split-settings
+
+# Heroku
+django-heroku==0.3.1
+heroku==0.1.4
+
+# ASGI
+aioredis==1.2.0
+asgiref==2.3.2
+async-timeout==2.0.1
+attrs==18.2.0
+autobahn==18.9.2
+Automat==0.7.0
+channels==2.1.4
+channels-redis==2.3.1
+constantly==15.1.0
+daphne==2.2.2
+hiredis==0.2.0
+hyperlink==18.0.0
+idna==2.8
+incremental==17.5.0
+msgpack==0.5.6
+PyHamcrest==1.9.0
+pytz==2018.5
+six==1.11.0
+Twisted==19.7.0
+txaio==18.8.1
+whitenoise==4.1.1
+zope.interface==4.5.0
+
+# Blog
+beautifulsoup4==4.8.0
+bs4==0.0.1
+certifi==2019.6.16
+chardet==3.0.4
+dj-database-url==0.5.0
+Pillow==6.1.0
+python-dateutil==1.5
+requests==2.22.0
+soupsieve==1.9.2
+sqlparse==0.3.0
+urllib3==1.25.3
+vk-api==11.5.0
+django-multiselectfield==0.1.8
+django-range-slider==0.2.4
+django-phonenumber-field==1.1.0
+phonenumbers==8.10.18
+Importable==0.2.2
+django-static-jquery==2.1.4
+lxml==4.4.1
+
+# Bankrot
+phonenumber_field
+
+# Shop
+autopep8==1.4.4
+defusedxml==0.6.0
+django-allauth==0.39.1
+django-countries==5.3.3
+django-crispy-forms==1.7.2
+oauthlib==3.0.1
+pep8==1.7.1
+pycodestyle==2.5.0
+python-decouple==3.1
+python3-openid==3.1.0
+requests-oauthlib==1.2.0
+stripe==2.27.0
+watchdog==0.9.0
+PyYAML==5.1.2
+argh==0.26.2
+reload==0.9
+mypy==0.740
+mypy-extensions==0.4.3
+typing-extensions==3.7.4.1
