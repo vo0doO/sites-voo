@@ -3,10 +3,10 @@ from django.http import HttpResponse
 from django.template.response import TemplateResponse
 from django.views.decorators.csrf import csrf_exempt
 
-from project.apps.django_robokassa.conf import USE_POST
-from project.apps.django_robokassa.forms import (ResultURLForm, SuccessRedirectForm, FailRedirectForm)
-from project.apps.django_robokassa.models import SuccessNotification
-from project.apps.django_robokassa.signals import (result_received, success_page_visited, fail_page_visited)
+from project.apps.robokassa.conf import USE_POST
+from project.apps.robokassa.forms import (ResultURLForm, SuccessRedirectForm, FailRedirectForm)
+from project.apps.robokassa.models import SuccessNotification
+from project.apps.robokassa.signals import (result_received, success_page_visited, fail_page_visited)
 
 
 @csrf_exempt

@@ -22,7 +22,7 @@ INSTALLED_APPS = (
     'django_static_jquery',
     'multiselectfield',
 
-    'django_robokassa',
+    'project.apps.robokassa',
 
     # your apps goes here
     # 'project.apps.myapp',

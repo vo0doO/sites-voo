@@ -3,7 +3,7 @@ from django.db import models
 from pprint import pprint
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
-# from robokassa.signals import result_received
+# from project.apps.robokassa.signals import result_received
 from django.contrib.contenttypes.fields import GenericRelation
 
 

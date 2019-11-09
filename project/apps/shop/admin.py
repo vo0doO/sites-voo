@@ -1,6 +1,6 @@
 from django.contrib import admin
 from project.apps.shop.models import *
-from django_robokassa.models import *
+from project.apps.robokassa.models import *
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):

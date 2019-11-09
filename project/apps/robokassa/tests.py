@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*- 
 from unittest import TestCase
 from django.test import TestCase as DjangoTestCase
-from project.apps.django_robokassa.forms import RobokassaForm, ResultURLForm
-from project.apps.django_robokassa.conf import LOGIN, PASSWORD1, PASSWORD2
+from project.apps.robokassa.forms import RobokassaForm, ResultURLForm
+from project.apps.robokassa.conf import LOGIN, PASSWORD1, PASSWORD2
 
 class RobokassaFormTest(TestCase):
     def setUp(self):

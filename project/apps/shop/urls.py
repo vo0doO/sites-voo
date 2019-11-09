@@ -4,7 +4,7 @@ except ImportError:
     from django.conf.urls import url
 
 from django.urls import path
-from django_robokassa import views as v
+from project.apps.robokassa import views as v
 
 from project.apps.shop.views import (CheckoutView, HomeView, OrderSummaryView,
                                      ProductDetailView, QiwiPayView,

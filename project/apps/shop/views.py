@@ -2,7 +2,7 @@ import stripe
 from django.conf import settings
 from django.utils import timezone
 from django.contrib import messages
-from django_robokassa.forms import RobokassaForm
+from project.apps.robokassa.forms import RobokassaForm
 from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.decorators import login_required
