@@ -93,3 +93,4 @@ reload==0.9
 mypy==0.740
 mypy-extensions==0.4.3
 typing-extensions==3.7.4.1
+django-robokassa==1.2
