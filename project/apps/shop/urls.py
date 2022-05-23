@@ -1,7 +1,7 @@
 try:
     from django.conf.urls.defaults import url
 except ImportError:
-    from django.conf.urls import url
+    from django.conf import urls
 
 from django.urls import path
 from project.apps.robokassa import views as v

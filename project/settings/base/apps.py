@@ -27,8 +27,10 @@ INSTALLED_APPS = (
     # your apps goes here
     # 'project.apps.myapp',
 
-    'project.apps.curiosity',
+
     'project.apps.shop',
     'project.apps.bankrot',
     'project.apps.polls',
+    'project.apps.curiosity',
+    
 )
