@@ -1,6 +1,4 @@
-env/
-.vscode/
-.idea/
+.venv/
 node_modules
 *.pyc
 npm-debug.log
